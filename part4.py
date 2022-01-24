@@ -40,3 +40,14 @@ fizz
 """
 
 # write your code here 
+number = int(input("Enter a number "))
+
+if number%3 and number%5:
+  print("fizzbuzz")
+
+elif number%3 and number!%5:
+  print ("fizz")
+
+elif number%5 and number!3:
+  print ("buzz")
+
