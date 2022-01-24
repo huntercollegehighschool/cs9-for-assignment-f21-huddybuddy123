@@ -40,14 +40,14 @@ fizz
 """
 
 # write your code here 
-number = int(input("Enter a number "))
-
-if number%3 and number%5:
-  print("fizzbuzz")
-
-elif number%3 and number!%5:
-  print ("fizz")
-
-elif number%5 and number!3:
-  print ("buzz")
+base = int(input("Enter a number "))
+for x in range( 1, base + 1):
+  if x%15 == 0:
+    print("fizzbuzz")
+  elif x%3 ==0:
+    print("fizz")
+  elif x%5 == 0:
+    print("buzz")
+  else:
+    print("x")
 
